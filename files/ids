@@ -1,0 +1,5 @@
+{
+    "A" : "PrenomA \\textsc{NomA}",
+    "B" : "PrenomB \\textsc{NomB}",
+    "C" : "PrenomC \\textsc{NomC}"
+}

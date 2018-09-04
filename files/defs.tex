@@ -1,0 +1,32 @@
+
+\def \grand {200pt}
+\def \moyen {150pt}
+\def \petit	{100pt}
+
+
+\newcommand{\img}[2]{ %lien,legende
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[height=\petit]{#1}
+	\end{center}
+	\caption{#2}
+\end{figure}
+}
+
+\newcommand{\Img}[2]{ %lien,legende
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[height=\moyen]{#1}
+	\end{center}
+	\caption{#2}
+\end{figure}
+}
+
+\newcommand{\IMG}[2]{ %lien,legende
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[height=\grand]{#1}
+	\end{center}
+	\caption{#2}
+\end{figure}
+}
